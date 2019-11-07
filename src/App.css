@@ -1,7 +1,7 @@
 .container {
     background-color: #c00025;
     width: 100%;
-    max-width: 550px;
+    max-width: 450px;
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
@@ -9,14 +9,69 @@
 .display {
     margin-top: 25px;
     height: 100px;
-    width: 450px;
+    width: 400px;
+    margin: 0 auto;
     border-radius: 50px;
+    padding: 0px 20px;
+    box-sizing: border-box;
     color: white;
     background-color: #322c2d;
     box-shadow: 1px 1px #322c2d;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding-right: 8%;
-    font-size: 5.0rem;
+    font-size: 3.5rem;
+    line-height: 100px;
   }
+
+.button {
+  width: 82px;
+  height: 82px;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  line-height: 84px;
+  margin-bottom: 15px;
+  border-radius: 500px;
+  box-shadow: 0px 4px 1px rgba(0,0,0,0.5)
+}
+
+.button-big {
+  width: 197px;
+}
+
+.button--number {
+  background-color: #1B4477;
+}
+
+.button--operator {
+  background-color: #287291;
+}
+
+.button--special {
+  background-color: #265E9C;
+}
+
+.buttons-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.buttons {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.buttons-left {
+  width: 300px;
+  flex-shrink: 0;
+}
+
+.buttons-right {
+  width: 82px;
+}
